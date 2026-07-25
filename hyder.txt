@@ -1,0 +1,6 @@
+adding new file to dev branch and pulling the change into local with git command GIT pull
+performed cherry pick into feature branch from DEV and now saving it and using the merge command
+sucessfully added changes and pushed the file to remote and now doing the rebase
+hyder
+hasnain
+hamdan
