@@ -1,0 +1,16 @@
+name: my project Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say perfect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout @sf-repo-2
+
+      - name: Print Hello
+        run: echo "🎉 Hello, GitHub Actions!"
