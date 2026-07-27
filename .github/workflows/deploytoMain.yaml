@@ -28,8 +28,10 @@ jobs:
       # 4. Generate delta package (only changed components)
       - name: Generate Delta Package
         run: |
-          --from ${{ github.event.before }}
-          --to ${{ github.sha }}
+         sf sgd source delta \
+      --from "${{ github.event.before }}" \
+      --to "${{ github.sha }}" \
+      --output-dir delta
 
       # 5. Show generated package
       - name: Display Generated Package
