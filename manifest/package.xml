@@ -25,8 +25,7 @@
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
-		<members>Hs_Trader__c</members>
-		<members>Iphone__c</members>
+		<members>Iphone_1__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
